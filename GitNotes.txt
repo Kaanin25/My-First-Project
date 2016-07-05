@@ -20,3 +20,5 @@ Console commands
 	git pull == fetch and merge changes from remote rep to local rep
 	
 	git commit == this lets you do a commit with a multi-line message you can hit [esc] :wq to send the commit with the message typed
+
+	You have to make sure that you have all files in the remote repository before you can push changes you have made.
