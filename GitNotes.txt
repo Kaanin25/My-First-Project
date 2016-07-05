@@ -1,0 +1,22 @@
+GitNotes
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+Console commands
+	
+	cd == change directory
+	
+	.. == move up a folder
+	
+	git clone [repository url] == create a local copy of a repository
+	
+	git status == displays what needs to be added or committed
+	
+	git add [file name] == adds files to staging
+	
+	git commit -m "message" == commit changes to head with a message
+	
+	git push == push commits to repository
+	
+	git pull == fetch and merge changes from remote rep to local rep
+	
+	git commit == this lets you do a commit with a multi-line message you can hit [esc] :wq to send the commit with the message typed
