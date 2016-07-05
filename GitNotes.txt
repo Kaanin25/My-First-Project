@@ -3,22 +3,26 @@ GitNotes
 
 Console commands
 	
-	cd == change directory
+	cd 							change directory
 	
-	.. == move up a folder
+	cd .. 						move up a folder
 	
-	git clone [repository url] == create a local copy of a repository
+	git clone [repository url] 	create a local copy of a repository
 	
-	git status == displays what needs to be added or committed
+	git status 					displays what needs to be added or committed
 	
-	git add [file name] == adds files to staging
+	git add [file name] 		adds files to staging
 	
-	git commit -m "message" == commit changes to head with a message
-	
-	git push == push commits to repository
-	
-	git pull == fetch and merge changes from remote rep to local rep
-	
-	git commit == this lets you do a commit with a multi-line message you can hit [esc] :wq to send the commit with the message typed
+	git commit -m "message" 	commit changes to head with a message
 
-	You have to make sure that you have all files in the remote repository before you can push changes you have made.
+	git commit 					multi-line message commit (hit [esc] :wq)
+	
+	git push 					push commits to repository
+	
+	git pull 					fetch and merge changes from remote rep to local rep
+
+	git branch [name]			creates new local branch called [name]
+
+	git branch -d [name]		deletes a local branch called [name]
+
+	You have to make sure that you have pulled all files from the remote repository before you can push changes you have made.
