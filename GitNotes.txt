@@ -3,43 +3,43 @@ GitNotes
 
 Console commands
 	
-	cd 									change directory
+	cd 					change directory
 	
-	cd .. 								move up a folder
+	cd .. 					move up a folder
 	
-	git clone [repository url] 			create a local copy of a repository
+	git clone [repository url] 		create a local copy of a repository
 	
-	git status 							displays what needs to be added or committed
+	git status 				displays what needs to be added or committed
 	
-	git add [file name] 				adds files to staging
+	git add [file name] 			adds files to staging
 	
-	git commit -m "message" 			commit changes to head with a message
+	git commit -m "message" 		commit changes to head with a message
 
-	git commit 							multi-line message commit (hit [esc] :wq)
+	git commit 				multi-line message commit (hit [esc] :wq)
 	
-	git push 							push commits to repository
+	git push 				push commits to repository
 	
-	git pull 							fetch and merge changes from remote rep to local rep
+	git pull 				fetch and merge changes from remote rep to local rep
 
-	git branch [name]					creates new local branch called [name]
+	git branch [name]			creates new local branch called [name]
 
-	git branch -a 						shows all branches, even remote ones
+	git branch -a 				shows all branches, even remote ones
 
-	git branch -d [name]				deletes a local branch called [name]
+	git branch -d [name]			deletes a local branch called [name]
 
 	git push origin :[name] 			
 	git push origin --delete [name]		deletes a remote branch
 
-	git remote prune origin				removes stale branches from local view
+	git remote prune origin			removes stale branches from local view
 
 	git remote prune origin --dry-run	returns a list of branches that would be pruned
 
-	git fetch --all						pulls the data from your current branch without merging
+	git fetch --all				pulls the data from your current branch without merging
 
-	git reset							resets the master to what was fetched
+	git reset				resets the master to what was fetched
 
 	git reset --hard origin/master		swaps your working copy with the master branch deleting any current saved/committed work
 
-	git merge master					merges any changes to the master branch into your current branch
+	git merge master			merges any changes to the master branch into your current branch
 
 	You have to make sure that you have pulled all files from the remote repository before you can push changes you have made.
