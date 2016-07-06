@@ -23,6 +23,13 @@ Console commands
 
 	git branch [name]			creates new local branch called [name]
 
+	git branch -a 				shows all branches, even remote ones
+
+	git branch :[name] 			
+	git branch --delete [name]	deletes a remote branch
+
 	git branch -d [name]		deletes a local branch called [name]
+
+	git remote prune origin		removes stale branches from local view
 
 	You have to make sure that you have pulled all files from the remote repository before you can push changes you have made.
