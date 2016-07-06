@@ -38,7 +38,7 @@ Console commands
 
 	git reset				resets the master to what was fetched
 
-	git reset --hard origin/master		swaps your working copy with the master branch deleting any current saved/committed work
+	git reset --hard origin/master		overwrites working copy with master branch
 
 	git merge master			merges any changes to the master branch into your current branch
 
