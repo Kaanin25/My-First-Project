@@ -2,6 +2,9 @@ GitNotes
 -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
 Console commands
+
+
+	...Who cares...
 	
 	cd 					change directory
 	
