@@ -32,4 +32,12 @@ Console commands
 
 	git remote prune origin				removes stale branches from local view
 
+	git remote prune origin --dry-run	returns a list of branches that would be pruned
+
+	git fetch --all						pulls the data from your current branch without merging
+
+	git reset							resets the master to what was fetched
+
+	git reset --hard origin/master		swaps your working copy with the master branch deleting any current saved/committed work
+
 	You have to make sure that you have pulled all files from the remote repository before you can push changes you have made.
