@@ -40,4 +40,6 @@ Console commands
 
 	git reset --hard origin/master		swaps your working copy with the master branch deleting any current saved/committed work
 
+	git merge master					merges any changes to the master branch into your current branch
+
 	You have to make sure that you have pulled all files from the remote repository before you can push changes you have made.
