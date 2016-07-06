@@ -1,4 +1,3 @@
-# My-First-Project
-see repository name
+# My-First-Repo
 
 Hi Donovan!
