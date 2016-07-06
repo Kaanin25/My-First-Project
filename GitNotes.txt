@@ -3,33 +3,33 @@ GitNotes
 
 Console commands
 	
-	cd 							change directory
+	cd 									change directory
 	
-	cd .. 						move up a folder
+	cd .. 								move up a folder
 	
-	git clone [repository url] 	create a local copy of a repository
+	git clone [repository url] 			create a local copy of a repository
 	
-	git status 					displays what needs to be added or committed
+	git status 							displays what needs to be added or committed
 	
-	git add [file name] 		adds files to staging
+	git add [file name] 				adds files to staging
 	
-	git commit -m "message" 	commit changes to head with a message
+	git commit -m "message" 			commit changes to head with a message
 
-	git commit 					multi-line message commit (hit [esc] :wq)
+	git commit 							multi-line message commit (hit [esc] :wq)
 	
-	git push 					push commits to repository
+	git push 							push commits to repository
 	
-	git pull 					fetch and merge changes from remote rep to local rep
+	git pull 							fetch and merge changes from remote rep to local rep
 
-	git branch [name]			creates new local branch called [name]
+	git branch [name]					creates new local branch called [name]
 
-	git branch -a 				shows all branches, even remote ones
+	git branch -a 						shows all branches, even remote ones
 
-	git branch :[name] 			
-	git branch --delete [name]	deletes a remote branch
+	git branch -d [name]				deletes a local branch called [name]
 
-	git branch -d [name]		deletes a local branch called [name]
+	git push origin :[name] 			
+	git push origin --delete [name]		deletes a remote branch
 
-	git remote prune origin		removes stale branches from local view
+	git remote prune origin				removes stale branches from local view
 
 	You have to make sure that you have pulled all files from the remote repository before you can push changes you have made.
